@@ -117,7 +117,7 @@ public class FitnesseProcess extends  FutureBasedBuildProcess {
     }
 
     private int GetServerResponseCode() throws MalformedURLException {
-        int code =  ping(getFitnesseRootUrl(), 500);
+        int code =  ping(getFitnesseRootUrl(), 2000);
         return code;
     }
 
